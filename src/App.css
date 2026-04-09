@@ -1,0 +1,337 @@
+:root {
+  --bg-color: #1B3C53;
+  --extra-dark: #152e3f;
+  --highlight: #78B9B5;
+  --light-color: #D2C1B6;
+  --hero-color-one: #74ff86;
+  --hero-color-two: #b978ac;
+
+  --margin-left: 5%;
+  --margin-right: 5%;
+  --scroll-margin-top: 120px;
+  scroll-behavior: smooth;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.Hero {
+
+  margin-left: 0;
+  height: 100vh;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+.Logo {
+  position: absolute;
+  top: 20vh;
+  left: 40vw;
+
+  height: 40%;
+  z-index: 5;
+}
+
+.Projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 550px;
+  width: 300px;
+  border-radius: 15px;
+  border-radius: 10px;
+  border: 3px var(--light-color) solid;
+  background-color: var(--extra-dark);
+  transition: all 0.3s ease-in-out;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  color: var(--light-color);
+}
+
+.CardContainer:hover {
+  filter: drop-shadow(0px 0px 5px var(--highlight));
+}
+
+.projectLogos {
+  height: 2.2rem;
+}
+
+.projectLogoSection {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.projectImage {
+  width: 100%;
+}
+
+.projectLogosList {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.BtnSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.Card h3 {
+  font-family: "Orbitron";
+}
+
+.CardContainer a * {
+  text-align: center;
+  color: var(--bg-color);
+  font-size: 1rem;
+  font-family: "Orbitron", sans-serif;
+  text-decoration: none;
+  background-color: var(--light-color);
+  width: 130px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: var(--extra-dark) 0px solid;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+/* .BtnSection button:hover{
+  cursor: pointer;
+} */
+ .CardContainer a *:hover {
+  cursor: pointer;
+  background-color: var(--highlight);
+ }
+
+.Card p {
+  font-family: "Nunito";
+}
+
+.Card a *:hover {
+  cursor: pointer;
+}
+
+.Card img {
+  border-radius: 5px;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+}
+
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  backdrop-filter: blur(15px) brightness(0.7);
+}
+
+
+.Navbar-ul {
+  margin-left: var(--margin-left);
+  margin-right: var(--margin-right);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 0;
+}
+
+.Navbar-li {
+  list-style: none;
+
+}
+
+.Navbar-li-a {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: var(--light-color);
+  transition: all 0.1s ease-in-out;
+}
+
+.Navbar-li-a:hover {
+  color: var(--highlight);
+  border-bottom: 2px var(--highlight) solid;
+}
+
+.NavbarLogo {
+  margin-top: 5px;
+  height: 2rem;
+}
+
+main {
+  margin-left: var(--margin-left);
+  margin-right: var(--margin-right);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.Video {
+  width: 400px;
+}
+
+.About-me-content {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: var(--margin-left);
+}
+
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-family: "Nunito";
+  color: var(--light-color);
+  font-size: 1.3rem;
+  width: 50vw;
+  padding-left: 15px;
+  border-left: var(--highlight) 3px solid;
+}
+
+.logos * {
+  padding: 0;
+  list-style: none;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.logos li {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo-img {
+  height: 70px;
+  object-fit: cover;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  border-left: var(--highlight) 3px solid;
+  padding-left: 15px;
+  justify-content: start;
+  align-items: start;
+  font-family: "Nunito", sans-serif;
+  color: var(--light-color);
+}
+
+.refText {
+  font-family: "Nunito", sans-serif;
+  color: var(--light-color);
+  font-size: 2.3rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.refName {
+  font-family: "Orbitron", sans-serif;
+  color: var(--light-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: right;
+}
+
+.refCompany {
+  font-family: "Nunito", sans-serif;
+  color: var(--light-color);
+  text-align: right;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--light-color);
+}
+
+h2 {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: var(--light-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--light-color);
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  bottom: 0;
+  height: 80px;
+  background-color: var(--light-color);
+  margin-top: 15px;
+}
+
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  color: var(--bg-color);
+}
+
+.copyrightInfo {
+  margin-top: 5px;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+.footerLogos {
+  display: flex;
+  gap: 10px;
+}
+
+.faIcon {
+  color: var(--bg-color);
+}
+
+#about-me,
+#portfolio,
+#skills,
+#references {
+  scroll-margin-top: var(--scroll-margin-top);
+}
