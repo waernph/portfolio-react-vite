@@ -15,7 +15,6 @@
 }
 
 .Hero {
-
   margin-left: 0;
   height: 100vh;
   margin-bottom: 20px;
@@ -149,8 +148,8 @@ nav {
   flex-direction: row;
   align-items: center;
   gap: 5%;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   padding-left: 0;
 }
 
@@ -237,16 +236,29 @@ main {
   object-fit: cover;
 }
 
-.skill-list {
+.skill-section {
   display: flex;
-  flex-direction: column;
-  width: 100px;
-  border-left: var(--highlight) 3px solid;
-  padding-left: 15px;
+  gap: 10%;
   justify-content: start;
   align-items: start;
   font-family: "Nunito", sans-serif;
+  
+}
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-left: var(--highlight) 3px solid;
+  padding-left: 10px;
   color: var(--light-color);
+}
+.skill{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.skill-logo {
+  height: 50px;
 }
 
 .refText {
@@ -297,9 +309,11 @@ p {
 
 footer {
   bottom: 0;
-  height: 80px;
+  height: 60px;
   background-color: var(--light-color);
   margin-top: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .footerSection {
