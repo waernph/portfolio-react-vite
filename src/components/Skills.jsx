@@ -1,5 +1,5 @@
 function Skills() {
-    const base = import.meta.env.BASE_URL + "/"
+    const base = import.meta.env.BASE_URL + "logos/";
     return (
         <div id="skills">
             <h2>Skills</h2>
