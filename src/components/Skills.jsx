@@ -5,19 +5,19 @@ function Skills() {
             <section className="skill-section">
 
                 <section className="skill">
-                    <img className="skill-logo" src="public\logos\C_Sharp_Logo_2023_cropped.svg" alt="" />
+                    <img className="skill-logo" src="/logos/C_Sharp_Logo_2023_cropped.svg" alt="" />
                     <div className="skill-list">
                         <p>OOP</p>
                         <p>ASP.NET</p>
                         <p>Entity Framework</p>
                         <p>Web API</p>
                         <p>AutoMapper</p>
-                        <p>Swagger/Scalar/Postman</p>
+                        <p>Scalar/Postman</p>
                         <p>JWT</p>
                     </div>
                 </section>
                 <section className="skill">
-                    <img className="skill-logo" src="public\logos\Microsoft_SQL_Server_2025_icon.svg" alt="" />
+                    <img className="skill-logo" src="/logos/Microsoft_SQL_Server_2025_icon.svg" alt="" />
                     <div className="skill-list">
                         <p>SQL Server</p>
                         <p>SSMS</p>
@@ -28,7 +28,15 @@ function Skills() {
                     </div>
                 </section>
                 <section className="skill">
-                    <img className="skill-logo" src="public\logos\HTML5_logo_and_wordmark_white.svg" alt="" />
+                    <img className="skill-logo" src="/logos/Microsoft_Azure.svg" alt="" />
+                    <div className="skill-list">
+                        <p>Azure CLI</p>
+                        <p>Deploy Web App</p>
+                        <p>KeyVault</p>
+                    </div>
+                </section>
+                <section className="skill">
+                    <img className="skill-logo" src="/logos/HTML5_logo_and_wordmark_white.svg" alt="" />
                     <div className="skill-list">
                         <p>Create SPA</p>
                         <p>Semantic HTML</p>
@@ -36,7 +44,7 @@ function Skills() {
                     </div>
                 </section>
                 <section className="skill">
-                    <img className="skill-logo" src="public\logos\CSS3_logo_and_wordmark_white.svg" alt="" />
+                    <img className="skill-logo" src="/logos/CSS3_logo_and_wordmark_white.svg" alt="" />
                     <div className="skill-list">
                         <p>CSS Styling</p>
                         <p>Animation</p>
@@ -45,7 +53,7 @@ function Skills() {
                     </div>
                 </section>
                 <section className="skill">
-                    <img className="skill-logo" src="public\logos\Javascript-shield.svg" alt="" />
+                    <img className="skill-logo" src="/logos/Javascript-shield.svg" alt="" />
                     <div className="skill-list">
                         <p>Fetch</p>
                         <p>JavaScript DOM</p>
@@ -54,13 +62,14 @@ function Skills() {
                     </div>
                 </section>
                 <section className="skill">
-                    <img className="skill-logo" src="public\logos\GitHub\GitHub_Invertocat_White.svg" alt="" />
+                    <img className="skill-logo" src="/logos/GitHub/GitHub_Invertocat_White.svg" alt="" />
                     <div className="skill-list">
                         <p>Git and Github repos</p>
                         <p>Git CLI</p>
                         <p>Pages</p>
                     </div>
                 </section>
+                
             </section>
         </div>
     )
