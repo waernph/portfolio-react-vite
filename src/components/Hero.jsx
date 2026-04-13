@@ -3,7 +3,7 @@ import Grainient from './Grainient';
 function Hero() {
     return (
         <section className="Hero">
-            <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
+            <div className="HeroContent" style={{ width: '100%', height: '100vh', position: 'relative' }}>
                 <div className='Logo'>
                     <DanishAe />
                     <h1>Philip Waern</h1>

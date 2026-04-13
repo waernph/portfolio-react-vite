@@ -3,7 +3,6 @@ function Skills() {
         <div id="skills">
             <h2>Skills</h2>
             <section className="skill-section">
-
                 <section className="skill">
                     <img className="skill-logo" src="/logos/C_Sharp_Logo_2023_cropped.svg" alt="" />
                     <div className="skill-list">

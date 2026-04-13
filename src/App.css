@@ -8,7 +8,7 @@
 
   --margin-left: 5%;
   --margin-right: 5%;
-  --scroll-margin-top: 120px;
+  --scroll-margin-top: 100px;
   scroll-behavior: smooth;
   transition: all 0.5s ease-in-out;
 
@@ -20,12 +20,15 @@
   margin-bottom: 20px;
   z-index: 1;
 }
+.HeroContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .Logo {
   position: absolute;
   top: 20vh;
-  left: 40vw;
-
   height: 40%;
   z-index: 5;
 }
@@ -106,9 +109,7 @@
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
 }
-/* .BtnSection button:hover{
-  cursor: pointer;
-} */
+
  .CardContainer a *:hover {
   cursor: pointer;
   background-color: var(--highlight);
@@ -190,6 +191,7 @@ main {
 
 .Video {
   width: 400px;
+  margin-bottom: 15px;
 }
 
 .About-me-content {
@@ -241,9 +243,9 @@ main {
 
 .skill-section {
   display: flex;
-  gap: 10%;
-  flex-wrap: 25px;
-  justify-content: space-evenly;
+  /* gap: 10%; */
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: start;
   font-family: "Nunito", sans-serif;
   
@@ -251,7 +253,7 @@ main {
 .skill-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   border-left: var(--highlight) 3px solid;
   padding-left: 10px;
   color: var(--light-color);
@@ -259,7 +261,7 @@ main {
 .skill{
   display: flex;
   flex-direction: column;
-  width: 80px;
+  min-width: 80px;
   gap: 40px;
 }
 .skill-logo {
